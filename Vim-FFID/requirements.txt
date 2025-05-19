@@ -1,0 +1,40 @@
+# Requirements for Vim-FFID project based on mamba environment
+
+# Core deep learning frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+timm>=0.6.12
+
+# Mamba-specific requirements
+mamba-ssm>=1.0.1
+triton>=2.0.0
+
+# General scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+
+# Data handling and visualization
+pandas>=2.0.0
+matplotlib>=3.7.0
+pillow>=9.4.0
+seaborn>=0.12.0
+
+# ML experiment tracking
+mlflow>=2.3.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+einops>=0.6.0
+
+# For notebook environments (optional)
+ipython>=8.10.0
+jupyter>=1.0.0
+
+# For distributed training
+tensorboard>=2.12.0
+
+# Optional: For data augmentation and processing 
+albumentations>=1.3.0
+opencv-python>=4.7.0
