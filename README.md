@@ -15,11 +15,8 @@ Dataset link: https://drive.google.com/drive/folders/1WvXhaOPScXOLUdZRAmx70dFbyJ
 - [Usage](#usage)
   - [Training](#training)
   - [Evaluation](#evaluation)
-  - [Inference](#inference)
-- [Results](#results)
 - [Citation](#citation)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 
 ##  Overview
