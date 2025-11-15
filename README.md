@@ -123,7 +123,7 @@ python tools/train_vim_ffid.py \
   --config configs/sea_cucumber_overhead.yaml \
   --data_root /path/to/FishFaceID \
   --output_dir outputs/sea_cucumber_overhead
-
+```
 
 --config: path to the training configuration file.
 Here we use the config tailored for the Sea Cucumber – Overhead subset.
@@ -139,6 +139,7 @@ This command trains Vim-FFID on the Sea Cucumber – Overhead subset and saves t
 python tools/eval_vim_ffid.py \
   --config configs/sea_cucumber_overhead.yaml \
   --checkpoint outputs/sea_cucumber_overhead/best_acc1.pth
+```
 
 --config: the same configuration file used during training, to keep data splits and model settings consistent.
 --checkpoint: path to the trained model checkpoint to be evaluated.
@@ -153,7 +154,7 @@ FishFaceID: A deep learning-based non-invasive system for aquaculture organism i
 Aquaculture, Volume 613, 743375, 2026.
 https://doi.org/10.1016/j.aquaculture.2025.743375
 
-
+```bash
 @article{ZHANG2026743375,
 title = {FishFaceID: A deep learning-based non-invasive system for aquaculture organism individual identification},
 journal = {Aquaculture},
@@ -164,3 +165,4 @@ issn = {0044-8486},
 doi = {https://doi.org/10.1016/j.aquaculture.2025.743375},
 url = {https://www.sciencedirect.com/science/article/pii/S004484862501261X},
 }
+```
